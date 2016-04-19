@@ -17,8 +17,15 @@ To Execute the program
 -----------------------------------------------------------------------
 
 Observations:
+1.
 -We found that all the non prime numbers above 30,000 were unsuccessful in running RSA.
+
+        if we select a number n=p x q where p,q are both prime, we will have selected a number we can factor but, if it is large enough, no one else can factor. The reason for this is because, using known factorization algorithms for arbitrary integers, the running time of such algorithms depends on the relative size of the second largest prime factor of the input. This means that given the public exponent e only you can determine the private exponent d.
+
+2.
 -Challenge response scheme worked on the 16 bit random numbers which were generated.
+
+3.
 -Blind signature worked on the 16 bit random numbers.
 
 --------------------------------------------------------------------------
