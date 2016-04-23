@@ -1,12 +1,5 @@
 # RSAroutines
 
--------------------------------Homework 6--------------------------------
-Group:
-
-Shrirang Adgaonkar  1207597257
-Prajakta Belavade   1207643862
-
---------------------------------------------------------------------------
 To build the program please run the following command
 
     $ g++ BigInt.cpp RSA.cpp hm6.cpp -o hm6
@@ -16,6 +9,7 @@ To Execute the program
 
 -----------------------------------------------------------------------
 
+<<<<<<< HEAD
 Observations:
 1.
 -We found that all the non prime numbers above 30,000 were unsuccessful in running RSA.
@@ -27,6 +21,8 @@ Observations:
 
 3.
 -Blind signature worked on the 16 bit random numbers.
+=======
+>>>>>>> 571c990358d959646cff8cf9677b14233f3b5e8e
 
 --------------------------------------------------------------------------
 
