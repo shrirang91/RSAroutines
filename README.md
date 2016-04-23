@@ -32,6 +32,7 @@ Shrirangs-MacBook-Pro:HM6 shrirang$ ./hm6
 
 1)------------------Encryption and Decryption using RSA----------------------
 a) 10 instances of RSA routine(argument-less) encryption-decryption
+
 Message: 0x0A99 986D 		Encrypted: 0x0002 A3F5 3034 		Decrypted: 0x0A99 986D
 
 Message: 0x0A99 986D 		Encrypted: 0x0002 A3F5 3034 		Decrypted: 0x0A99 986D
@@ -53,6 +54,7 @@ Message: 0x0A99 986D 		Encrypted: 0x0002 A3F5 3034 		Decrypted: 0x0A99 986D
 Message: 0x0A99 986D 		Encrypted: 0x0002 A3F5 3034 		Decrypted: 0x0A99 986D
 
 b) 5 RSA instances(1 prime number(>30,000) as argument) encryption-decryption
+
 Message: 0x257F 009A 		Encrypted: 0xF48D 7388 		Decrypted: 0x257F 009A
 
 Message: 0x03C9 BB64 		Encrypted: 0xB8D5 C8F0 		Decrypted: 0x03C9 BB64
@@ -64,6 +66,7 @@ Message: 0x1ACE EEFD 		Encrypted: 0x8A16 07C6 		Decrypted: 0x1ACE EEFD
 Message: 0x1ACE EEFD 		Encrypted: 0xC598 5C3E 		Decrypted: 0x1ACE EEFD
 
 c) 5 RSA instances(2 prime numbers(>30,000) as arguments) encryption-decryption
+
 Message: 0x60C2 54AB 	Encrypted: 0x1DA8 E6A4 	Decrypted: 0x60C2 54AB
 
 Message: 0x60C2 54AB 	Encrypted: 0x1338 A2CB 	Decrypted: 0x60C2 54AB
@@ -75,6 +78,7 @@ Message: 0x60C2 D7F9 	Encrypted: 0x6003 8944 	Decrypted: 0x60C2 D7F9
 Message: 0x60C2 D7F9 	Encrypted: 0x410D 8C3D 	Decrypted: 0x60C2 D7F9
 
 d) 5 RSA instances(2 non prime numbers(>30,000) as arguments) encryption-decryption
+
 Message: 0x60C3 19A0 	Encrypted: 0x514C 6880 	Decrypted: 0x0765 4AB0
 
 Message: 0x60C3 19A0 	Encrypted: 0x1DD0 FD40 	Decrypted: 0x3186 3100
